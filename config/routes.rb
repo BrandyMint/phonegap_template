@@ -1,6 +1,10 @@
 module RouteHelpers
   def root_app_path
-    "/"
+    "./"
+  end
+
+  def stylesheet_path
+    "./stylesheets/application.css"
   end
 
   def production_url

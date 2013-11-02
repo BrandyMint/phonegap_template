@@ -13,14 +13,7 @@
 %meta(name='apple-mobile-web-app-capable' content='yes')
 %meta(name='apple-mobile-web-app-status-bar-style' content='translucent-black')
 
--# App Icons
-%link(rel="shortcut icon" href="/images/favicon.ico")
-%link(rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png")
-%link(rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/apple-touch-icon-76x76-precomposed.png")
-%link(rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/apple-touch-icon-120x120-precomposed.png")
-%link(rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/apple-touch-icon-152x152-precomposed.png")
-
 -# Stylesheets
 -#= stylesheet_link_tag 'application'
-%link{src: "stylesheets/application.css", rel: :stylesheet, media: :all}
+%link{href: stylesheet_path, rel: :stylesheet, media: :screen, type: 'text/css'}
 
