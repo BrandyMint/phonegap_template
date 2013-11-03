@@ -5,10 +5,9 @@
 #= require backbone.marionette/lib/backbone.marionette
 #= require hamlcoffee
 #= require backbone/app
+#= require_tree ./backbone/routes
 #= require_tree ./backbone/controllers
-#= require_tree ./backbone/entities
 #= require_tree ./backbone/models
-#= require_tree ./backbone/collections
 #= require_tree ./backbone/views
 
 
