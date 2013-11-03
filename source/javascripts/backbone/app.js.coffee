@@ -2,12 +2,12 @@
 
   App = new Marionette.Application
   
-  App.addRegions
-    headerRegion: "#header-region"
-    mainRegion:   "@main-region"
+  #App.addRegions
+  #  headerRegion: "#header-region"
+  #  mainRegion:   "@main-region"
 
-  App.reqres.setHandler "default:region", ->
-    App.mainRegion
+  #App.reqres.setHandler "default:region", ->
+  #  App.mainRegion
 
   # App.addInitializer ->
   #   App.module("HeaderApp").start()

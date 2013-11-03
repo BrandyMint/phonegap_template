@@ -3,7 +3,7 @@
   class Controllers.Base extends Marionette.Controller
 
     constructor: (options = {}) ->
-      @region = options.region or App.request "default:region"
+      #@region = options.region or App.request "default:region"
       super
 
     close: ->
@@ -12,3 +12,6 @@
     show: (view) ->
       @listenTo view, "close", @close
       @region.show view
+
+
+
