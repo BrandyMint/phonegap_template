@@ -7,10 +7,10 @@ class Afisha.Routers.AppRouter extends Backbone.Router
     #@cinemas = @fetchCinemas()
     @generateIndexView(@shows)
 
-  generateIndexView: (events, objects)->
-    @index_view ||= new Afisha.Views.IndexView
-    html = @index_view.render(events, objects)
-    $('@index-container').html(html)
+  generateIndexView: (shows)->
+    @index_view ||= new Afisha.Views.ShowsListView
+    html = @index_view.render(shows).el
+    $('@shows-list').html(html)
 
   fetchShows: () ->
     collection = new Afisha.Collections.ShowsCollection()

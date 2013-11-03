@@ -5,7 +5,8 @@ class Afisha.Models.Show extends Backbone.Model
 
 class Afisha.Collections.ShowsCollection extends Backbone.Collection
   model: Afisha.Models.Show
-  url: 'http://www.corsproxy.com/immense-shelf-2808.herokuapp.com/'
+  #url: 'http://www.corsproxy.com/immense-shelf-2808.herokuapp.com/'
+  url: './data/shows.json'
 
   initialize: ->
     @on 'sync', @build_collection

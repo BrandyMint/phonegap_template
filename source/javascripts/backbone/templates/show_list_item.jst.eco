@@ -1,0 +1,4 @@
+<strong>
+  Show list item
+  <%= @model.get('title') %>
+</strong>
