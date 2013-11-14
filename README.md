@@ -67,3 +67,4 @@ You can use any platform (need sdk installed).
 ## TODO
 
 * Add backbone, marionette, rivets
+* javascript test suite (jasmine)
