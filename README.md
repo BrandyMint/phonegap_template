@@ -68,3 +68,6 @@ You can use any platform (need sdk installed).
 
 * Add backbone, marionette, rivets
 * javascript test suite (jasmine)
+* move javascripts/lib to bower components
+* add javascript helpers
+
