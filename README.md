@@ -70,4 +70,5 @@ You can use any platform (need sdk installed).
 * javascript test suite (jasmine)
 * move javascripts/lib to bower components
 * add javascript helpers
+* https://github.com/marcol/jquery-touch/ | https://github.com/aipmedia-org/kribrum/commit/6731d9db46277382ff44e2c76f0ae36a12d43682
 
