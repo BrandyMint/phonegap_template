@@ -60,3 +60,10 @@ Access data in templates with `= data.yml_file.key...` objects, like `= data.pro
 You can use any platform (need sdk installed).
 
 `phonegap build ios` creates a build
+
+
+--
+
+## TODO
+
+* Add backbone, marionette, rivets
