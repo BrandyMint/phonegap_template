@@ -67,8 +67,9 @@ You can use any platform (need sdk installed).
 ## TODO
 
 * Add backbone, marionette, rivets
-* javascript test suite (jasmine)
+* javascript test suite (jasmine), http://karma-runner.github.io/0.10/index.html
 * move javascripts/lib to bower components
 * add javascript helpers
 * https://github.com/marcol/jquery-touch/ | https://github.com/aipmedia-org/kribrum/commit/6731d9db46277382ff44e2c76f0ae36a12d43682
+* https://github.com/flightjs/flight
 
